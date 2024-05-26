@@ -1,6 +1,6 @@
 import Navbar from "@/Components/Navbar";
 import Image from "next/image";
-import arrow from "@/assets/vector.svg";
+import arrow from "@/assets/Vector.svg";
 import Link from "next/link";
 
 export default function Home() {
