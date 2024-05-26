@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <div className="h-10 w-full bg-white "></div>
       <div className="px-[92px] flex my-4 gap-5">
         <div className="bg-white w-[248px] h-[623px] rounded-[8px]  "></div>
         <div>
