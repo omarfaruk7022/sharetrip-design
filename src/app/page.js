@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div>
       <div className="h-10 w-full bg-white "></div>
-      <div className="px-[92px] flex my-4 gap-5">
+      <div className="px-[92px] flex my-4 gap-5  justify-center">
         <div className="bg-white w-[248px] h-[623px] rounded-[8px]  "></div>
-        <div>
+        <div className="">
           <div className="flex  gap-2 items-center">
             <p className=" text-[13px] text-[#5A6573]">Home</p>
             <span>
