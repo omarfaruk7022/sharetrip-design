@@ -3,6 +3,8 @@ import arrow from "@/assets/Vector.svg";
 import Link from "next/link";
 import ellipse from "@/assets/Ellipse.svg";
 import { IoArrowForwardSharp } from "react-icons/io5";
+import location from "@/assets/subtract.svg";
+import airline from "@/assets/Vector.png";
 
 export default function Home() {
   return (
@@ -12,15 +14,15 @@ export default function Home() {
         <div className="bg-white w-[248px] h-[623px] rounded-[8px]  "></div>
         <div>
           <div className="flex  gap-2 items-center">
-            <p className="text-black text-[13px]">Home</p>
+            <p className=" text-[13px] text-[#5A6573]">Home</p>
             <span>
               <Image src={arrow} alt="" />
             </span>
-            <p className="text-black text-[13px]">Booking History</p>
+            <p className="text-[#5A6573] text-[13px]">Booking History</p>
             <span>
               <Image src={arrow} alt="" />
             </span>
-            <p className="text-black text-[13px]">Flight</p>
+            <p className="text-[#5A6573] text-[13px]">Flight</p>
             <span>
               <Image src={arrow} alt="" />
             </span>
@@ -55,9 +57,30 @@ export default function Home() {
                 <span className="text-[#1882FF] text-[12px] px-2">33h 20m</span>
               </div>
             </div>
+            <div className="p-5 flex items-center gap-6">
+              <Image className="ms-1" src={location} />
+              <div className="bg-[#F5F7FA] py-2 px-3  flex items-center justify-between w-full rounded-[6px]">
+                <p className="text-[13px] text-[#1A2B3D] font-medium">
+                  Departure from Dhaka
+                </p>
+                <p className="text-[#5A6573] text-[13px]">
+                  <span className="font-semibold">Terminal 1: </span>
+                  Hazrat Shahjalal International Airport
+                </p>
+              </div>
+            </div>
+            <div className="p-5">
+              <div>
+                <Image src={airline} />
+              </div>
+              <p className="text-[#1A2B3D] font-semibold flex items-center gap-1">
+                DAC - DXB
+              </p>
+            </div>
           </section>
         </div>
       </div>
+      s
     </div>
   );
 }
