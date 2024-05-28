@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex ">
-              <div className="px-5 pt-3 pb-1">
+              <div className="px-5 pt-5 pb-1">
                 <div className="px-0.5">
                   <Image alt="" src={airline} className="py-2" />
                   <div className=" border-s w-[2px] h-[53px] ms-1.5 "></div>
@@ -89,12 +89,54 @@ export default function Home() {
                 </div>
               </div>
               <div className=" grid grid-cols-3 w-full text-black">
-                <div>
-                  <h2>DAC - DXB</h2>
-                  <span>12 hr 20 min</span>
+                <div className=" py-5">
+                  <div>
+                    {" "}
+                    <h2 className="text-[16px] font-bold">DAC - DXB</h2>
+                    <span className="text-[14px]">12 hr 20 min</span>
+                  </div>
+                  <div className="pt-3">
+                    {" "}
+                    <p className="text-[14px] font-semibold text-[#3E4957]">
+                      Turkish Airlines
+                    </p>
+                    <span className="text-[14px] text-[#5A6573]">
+                      Flight no : TUR467n
+                    </span>
+                  </div>
                 </div>
-                <div>asd</div>
-                <div>sad</div>
+                <div className=" py-5">
+                  <div>
+                    {" "}
+                    <h2 className="text-[16px] font-bold">07:30 PM</h2>
+                    <span className="text-[14px]">28 Mar, Friday</span>
+                  </div>
+                  <div className="pt-3">
+                    {" "}
+                    <p className="text-[14px]  text-[#5A6573]">
+                      Airbus Industrie 737-800-738
+                    </p>
+                    <span className="text-[14px] text-[#5A6573]">
+                      Class : <span> ECONOMY-Y (O)</span>
+                    </span>
+                  </div>
+                </div>
+                <div className=" py-5">
+                  <div>
+                    {" "}
+                    <h2 className="text-[16px] font-bold">DAC - DXB</h2>
+                    <span className="text-[14px]">12 hr 20 min</span>
+                  </div>
+                  <div className="pt-3">
+                    {" "}
+                    <p className="text-[14px] font-semibold text-[#3E4957]">
+                      Turkish Airlines
+                    </p>
+                    <span className="text-[14px] text-[#5A6573]">
+                      Flight no : TUR467n
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="px-5 flex items-center gap-6">
