@@ -8,6 +8,7 @@ import airline from "@/assets/Vector.png";
 import airplane from "@/assets/airplane.svg";
 import ellipse6 from "@/assets/ellipse6.svg";
 import subtractBlue from "@/assets/subtract-blue.svg";
+import warning from "@/assets/icon.svg";
 
 export default function Home() {
   return (
@@ -33,8 +34,8 @@ export default function Home() {
               STFL17121182045413
             </Link>
           </div>
-          <section className="bg-white w-[840px] h-[590px] rounded-[8px] my-4">
-            <div className=" p-5 flex items-center justify-between border-b">
+          <section className="bg-white w-[840px] h-[587px] rounded-[8px] my-4">
+            <div className="px-5 h-[70px] flex items-center justify-between border-b">
               {" "}
               <div className=" flex items-center gap-5">
                 <div className=" w-[24px]   h-[24px] bg-[#1882FF] text-[14px] font-semibold rounded-full flex justify-center items-center">
@@ -57,7 +58,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="bg-[#E8F3FF]  rounded-[32px]">
-                <span className="text-[#1882FF] text-[12px] px-2">33h 20m</span>
+                <span className="text-[#1882FF] text-[12px] px-2 font-medium">
+                  33h 20m
+                </span>
               </div>
             </div>
             <div className="px-5 pt-5 flex items-center gap-6">
@@ -79,8 +82,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="flex ">
-              <div className="px-5 pt-5 pb-1">
+            <div className="flex w-full">
+              <div className="px-5 pt-6 pb-1">
                 <div className="px-0.5">
                   <Image alt="" src={airline} className="py-2" />
                   <div className=" border-s w-[2px] h-[53px] ms-1.5 "></div>
@@ -88,54 +91,57 @@ export default function Home() {
                   <div className=" border-s w-[2px] h-[53px] ms-1.5 "></div>
                 </div>
               </div>
-              <div className=" grid grid-cols-3 w-full text-black">
-                <div className=" py-5">
-                  <div>
-                    {" "}
-                    <h2 className="text-[16px] font-bold">DAC - DXB</h2>
-                    <span className="text-[14px]">12 hr 20 min</span>
+
+              <div className="w-full">
+                {" "}
+                <div className=" grid grid-cols-3 w-full text-black pt-5">
+                  <div className=" ">
+                    <div>
+                      {" "}
+                      <h2 className="text-[16px] font-bold">DAC - DXB</h2>
+                      <span className="text-[14px]">12 hr 20 min</span>
+                    </div>
+                    <div className="pt-3">
+                      {" "}
+                      <p className="text-[14px] font-semibold text-[#3E4957]">
+                        Turkish Airlines
+                      </p>
+                      <span className="text-[14px] text-[#5A6573]">
+                        Flight no : TUR467n
+                      </span>
+                    </div>
                   </div>
-                  <div className="pt-3">
-                    {" "}
-                    <p className="text-[14px] font-semibold text-[#3E4957]">
-                      Turkish Airlines
-                    </p>
-                    <span className="text-[14px] text-[#5A6573]">
-                      Flight no : TUR467n
-                    </span>
+                  <div className=" ">
+                    <div>
+                      {" "}
+                      <h2 className="text-[16px] font-bold">07:30 PM</h2>
+                      <span className="text-[14px]">28 Mar, Friday</span>
+                    </div>
+                    <div className="pt-3">
+                      {" "}
+                      <p className="text-[14px]  text-[#5A6573]">
+                        Airbus Industrie 737-800-738
+                      </p>
+                      <span className="text-[14px] text-[#5A6573]">
+                        Class : <span> ECONOMY-Y (O)</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div className=" ">
+                    <div>
+                      {" "}
+                      <h2 className="text-[16px] font-bold">08:50 AM</h2>
+                      <span className="text-[14px]">29 Mar, Saturday</span>
+                    </div>
                   </div>
                 </div>
-                <div className=" py-5">
-                  <div>
-                    {" "}
-                    <h2 className="text-[16px] font-bold">07:30 PM</h2>
-                    <span className="text-[14px]">28 Mar, Friday</span>
-                  </div>
-                  <div className="pt-3">
-                    {" "}
-                    <p className="text-[14px]  text-[#5A6573]">
-                      Airbus Industrie 737-800-738
-                    </p>
-                    <span className="text-[14px] text-[#5A6573]">
-                      Class : <span> ECONOMY-Y (O)</span>
-                    </span>
-                  </div>
-                </div>
-                <div className=" py-5">
-                  <div>
-                    {" "}
-                    <h2 className="text-[16px] font-bold">DAC - DXB</h2>
-                    <span className="text-[14px]">12 hr 20 min</span>
-                  </div>
-                  <div className="pt-3">
-                    {" "}
-                    <p className="text-[14px] font-semibold text-[#3E4957]">
-                      Turkish Airlines
-                    </p>
-                    <span className="text-[14px] text-[#5A6573]">
-                      Flight no : TUR467n
-                    </span>
-                  </div>
+                <div className=" flex items-center py-2 px-3 bg-[#FFEEDB]  gap-3 border border-[#FFE1C2] me-5 rounded-[6px] my-[18px]">
+                  <Image className="" src={warning} alt="" />
+                  <span className="text-[11.5px] text-[#3E4957] space-y-[16px]">
+                    Technical stoppage at Malpensa International Airport
+                    (Milano). Before booking this flight please check your visa
+                    requirements as per your nationality
+                  </span>
                 </div>
               </div>
             </div>
@@ -156,15 +162,58 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="px-5 pt-3 pb-1">
-              <div className="px-0.5">
-                <Image alt="" src={airline} className="py-2" />
-                <div className=" border-s w-[2px] h-[19px] ms-1.5 "></div>
-                <Image alt="" src={airplane} className="py-3" />
-                <div className=" border-s w-[2px] h-[19px] ms-1.5 "></div>
+            <div className="flex">
+              <div className="px-5 pt-6 pb-1">
+                <div className="px-0.5">
+                  <Image alt="" src={airline} className="py-2" />
+                  <div className=" border-s w-[2px] h-[19px] ms-1.5 "></div>
+                  <Image alt="" src={airplane} className="py-3" />
+                  <div className=" border-s w-[2px] h-[19px] ms-1.5 "></div>
+                </div>
+              </div>
+              <div className=" grid grid-cols-3 w-full text-black pt-5">
+                <div className=" ">
+                  <div>
+                    {" "}
+                    <h2 className="text-[16px] font-bold">DAC - DXB</h2>
+                    <span className="text-[14px]">12 hr 20 min</span>
+                  </div>
+                  <div className="pt-3">
+                    {" "}
+                    <p className="text-[14px] font-semibold text-[#3E4957]">
+                      Turkish Airlines
+                    </p>
+                    <span className="text-[14px] text-[#5A6573]">
+                      Flight no : TUR467n
+                    </span>
+                  </div>
+                </div>
+                <div className=" ">
+                  <div>
+                    {" "}
+                    <h2 className="text-[16px] font-bold">07:30 PM</h2>
+                    <span className="text-[14px]">28 Mar, Friday</span>
+                  </div>
+                  <div className="pt-3">
+                    {" "}
+                    <p className="text-[14px]  text-[#5A6573]">
+                      Airbus Industrie 737-800-738
+                    </p>
+                    <span className="text-[14px] text-[#5A6573]">
+                      Class : <span> ECONOMY-Y (O)</span>
+                    </span>
+                  </div>
+                </div>
+                <div className=" ">
+                  <div>
+                    {" "}
+                    <h2 className="text-[16px] font-bold">08:50 AM</h2>
+                    <span className="text-[14px]">29 Mar, Saturday</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="px-5 flex items-center gap-6">
+            <div className="px-5 flex items-center gap-6 ">
               <div className="flex flex-col items-center">
                 {" "}
                 <Image className="ms-1 text-[#1882FF]" src={subtractBlue} />
