@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "hareTrip: Book Air Tickets, Hotels, Packages Online",
+  title: "ShareTrip: Book Air Tickets, Hotels, Packages Online",
   description:
     "Leading online travel agency. Book air tickets, hotels, tour packages &amp; more without any hassle at the most affordable rates with ShareTrip.",
   icons: {
