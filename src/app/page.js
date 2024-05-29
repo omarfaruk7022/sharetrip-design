@@ -35,7 +35,7 @@ export default function Home() {
             </Link>
           </div>
           <section className="bg-white w-[840px] h-[587px] rounded-[8px] my-4">
-            <div className="px-5 h-[70px] flex items-center justify-between border-b">
+            <div className="px-5 h-[70px] flex items-center justify-between border-b border-gray-100">
               {" "}
               <div className=" flex items-center gap-5">
                 <div className=" w-[24px]   h-[24px] bg-[#1882FF] text-[14px] font-semibold rounded-full flex justify-center items-center">
