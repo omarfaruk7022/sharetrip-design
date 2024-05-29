@@ -37,7 +37,7 @@ export default function Home() {
           <section className="bg-white w-[840px] h-[587px] rounded-[8px] my-4">
             <div className="px-5 h-[70px] flex items-center justify-between border-b border-gray-100">
               {" "}
-              <div className=" flex items-center gap-5">
+              <div className=" flex items-center gap-[17px]">
                 <div className=" w-[24px]   h-[24px] bg-[#1882FF] text-[14px] font-semibold rounded-full flex justify-center items-center">
                   <span className=" ">1</span>
                 </div>
@@ -63,12 +63,12 @@ export default function Home() {
                 </span>
               </div>
             </div>
-            <div className="px-5 pt-5 flex items-center gap-6">
+            <div className="px-5 pt-5 flex items-center gap-[26px]">
               <div className="flex flex-col items-center">
                 {" "}
-                <Image className="ms-1" src={location} />
+                <Image className="ms-0.5" src={location} />
                 <div className="-mt-0.5">
-                  <Image className="ms-1" src={ellipse6} />
+                  <Image className="ms-0.5" src={ellipse6} />
                 </div>
               </div>
 
@@ -145,12 +145,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="px-5 flex items-center gap-6">
+            <div className="px-5 flex items-center gap-[26px]">
               <div className="flex flex-col items-center">
                 {" "}
-                <Image className="ms-1" src={location} />
+                <Image className="ms-0.5" src={location} />
                 <div className="-mt-0.5">
-                  <Image className="ms-1" src={ellipse6} />
+                  <Image className="ms-0.5" src={ellipse6} />
                 </div>
               </div>
               <div className="bg-[#E8F3FF] h-[40px] px-[16px] flex items-center justify-between w-full rounded-[6px]">
@@ -213,12 +213,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="px-5 flex items-center gap-6 ">
+            <div className="px-5 flex items-center gap-[26px] ">
               <div className="flex flex-col items-center">
                 {" "}
-                <Image className="ms-1 text-[#1882FF]" src={subtractBlue} />
+                <Image className="ms-0.5 text-[#1882FF]" src={subtractBlue} />
                 <div className="-mt-0.5">
-                  <Image className="ms-1" src={ellipse6} />
+                  <Image className="ms-0.5" src={ellipse6} />
                 </div>
               </div>
               <div className="bg-[#E8F3FF] h-[40px] px-[16px] flex items-center justify-between w-full rounded-[6px]">
