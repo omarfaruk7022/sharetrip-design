@@ -16,7 +16,10 @@ export default function Home() {
     <>
       <Head>
         <title>Next app</title>
-        <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png" />
+        <link
+          rel="icon"
+          href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png"
+        />
       </Head>
       <div>
         <div className="h-[68px] w-full bg-white "></div>
@@ -240,7 +243,6 @@ export default function Home() {
             </section>
           </div>
         </div>
-        s
       </div>
     </>
   );
